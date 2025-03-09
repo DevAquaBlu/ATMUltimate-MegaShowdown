@@ -1,10 +1,10 @@
 {
   "target": "cobblemon:screamtail",
   "implemented": true,
-  "baseScale": 2.0,
+  "baseScale": 0.825,
   "hitbox": {
-    "width": 0.6,
-    "height": 1,
+    "width": 1.8,
+    "height": 2,
     "fixed": false
   },
   "behaviour": {
@@ -16,14 +16,15 @@
     "moving": {
       "canLook": false,
       "walk": {
-         "canWalk": true,
-         "avoidsLand": false
-       },
-       "swim": {
-         "swimSpeed": 0.1,
-         "canSwimInWater": false,
-         "canBreatheUnderwater": false
-       }
-     }
-   }
+	    "walkSpeed": 0.175,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
 }

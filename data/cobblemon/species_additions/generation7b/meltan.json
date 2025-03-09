@@ -1,7 +1,7 @@
 {
   "target": "cobblemon:meltan",
   "implemented": true,
-  "baseScale": 0.45,
+  "baseScale": 0.4,
   "hitbox": {
     "width": 0.4,
     "height": 0.8,
@@ -28,23 +28,23 @@
      }
   },
   "evolutions": [
-  {
-    "id": "meltan_melmetal",
-    "variant": "level_up",
-    "result": "melmetal",
-    "consumeHeldItem": true,
-    "learnableMoves": [],
-	"requirements": [
-	  {
-        "variant": "held_item",
-        "itemCondition": "minecraft:anvil"
-	  },
-	  {
-        "variant": "level",
-        "minLevel": 42
-	  }
-    ]
-   }
+    {
+      "id": "meltan_melmetal",
+      "variant": "level_up",
+      "result": "melmetal",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+	    "requirements": [
+	      {
+          "variant": "held_item",
+          "itemCondition": "minecraft:anvil"
+	      },
+	      {
+          "variant": "level",
+          "minLevel": 42
+	      }
+      ]
+    }
   ],
   "drops": {
     "amount": 5,
